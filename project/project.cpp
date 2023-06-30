@@ -12,11 +12,20 @@ int main()
     cout << "A-B=" << a - b << '\n';
     cout << "A*B=" << a * b << '\n';
     cout << "A/B=" << a / b << '\n';
+
     if (a < b) {
         cout << "min:" << a << endl;
     }
     else
         cout << "min:" << b << endl;
+
+    if (a > b) {
+     cout << "max:"<< a << endl;
+    }
+    else {
+        cout<< "max:" << b << endl;
+    }
+
     cout << endl;
 }
 
